@@ -41,7 +41,7 @@
 
 /* Programming Language */
 #languages {
-	background-color: #f5eded;
+	background-color: white;
 	text-align: center;
 	padding: 3% 5%;
 }
@@ -52,7 +52,7 @@
 }
 .fa-star:hover {
 	color: gold;
-	transition: 0.3s ease;
+	transition: 0.2s ease;
 }
 hr {
 	border: dotted grey 6px;
