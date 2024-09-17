@@ -52,6 +52,7 @@
 }
 .fa-star:hover {
 	color: gold;
+	transition: 0.3s ease;
 }
 hr {
 	border: dotted grey 6px;
@@ -61,6 +62,7 @@ hr {
 }
 .rhover:hover {
 	font-weight: bold;
+	transition: 0.1s ease;
 }
 
 /* Projects */
