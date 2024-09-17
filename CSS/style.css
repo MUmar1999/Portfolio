@@ -1,0 +1,99 @@
+/* Header */
+#header {
+	background-color: #181c14;
+}
+.container-fluid {
+}
+
+.navbar {
+	padding: 1%;
+}
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.nav-item {
+	padding: 0 18px;
+}
+.nav-link {
+	font-family: "Ubuntu";
+	font-size: 1.2rem;
+}
+
+/* Title */
+#title {
+	background-color: #ecdfcc;
+	text-align: center;
+	padding: 3% 5%;
+}
+.personal-img {
+	width: 10%;
+	padding: 10px;
+}
+.about-me {
+	font-family: "Montserrat";
+	font-size: 20px;
+	line-height: 2;
+	width: 30%;
+	margin: auto;
+}
+
+/* Programming Language */
+#languages {
+	background-color: #f5eded;
+	text-align: center;
+	padding: 3% 5%;
+}
+.table {
+	width: 50%;
+	margin: auto;
+	padding: 1% 5%;
+}
+.fa-star:hover {
+	color: gold;
+}
+hr {
+	border: dotted grey 6px;
+	border-bottom: none;
+	width: 5%;
+	margin: 25px auto;
+}
+.rhover:hover {
+	font-weight: bold;
+}
+
+/* Projects */
+#featured-projects {
+	background-color: #7fa1c3;
+}
+
+/* Skills */
+#skills {
+	background-color: #f5eded;
+}
+
+/* Contact Me */
+#contact {
+	background-color: #7fa1c3;
+}
+
+/* Footer */
+#footer {
+	background-color: #6482ad;
+}
+
+/* Body */
+h1 {
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+
+h2 {
+}
+
+h3 {
+	font-family: "Montserrat";
+	font-weight: bold;
+	padding: 10px;
+}
