@@ -2,8 +2,8 @@
 #header {
 	background-color: #181c14;
 }
-.container-fluid {
-}
+/* .container-fluid {
+} */
 
 .navbar {
 	padding: 1%;
@@ -41,7 +41,7 @@
 
 /* Programming Language */
 #languages {
-	background-color: white;
+	background-color: #e2e3e5;
 	text-align: center;
 	padding: 3% 5%;
 }
@@ -54,12 +54,6 @@
 	color: gold;
 	transition: 0.2s ease;
 }
-hr {
-	border: dotted grey 6px;
-	border-bottom: none;
-	width: 5%;
-	margin: 25px auto;
-}
 .rhover:hover {
 	font-weight: bold;
 	transition: 0.1s ease;
@@ -67,7 +61,15 @@ hr {
 
 /* Projects */
 #featured-projects {
-	background-color: #7fa1c3;
+	background-color: #ecdfcc;
+	text-align: center;
+	padding: 5% 0 5% 0;
+}
+.carousel-item {
+	padding: 3% 16%;
+}
+.project-img {
+	padding-bottom: 5%;
 }
 
 /* Skills */
@@ -91,11 +93,18 @@ h1 {
 	font-weight: bold;
 }
 
-h2 {
-}
+/* h2 {
+} */
 
 h3 {
 	font-family: "Montserrat";
 	font-weight: bold;
 	padding: 10px;
+}
+
+hr {
+	border: dotted grey 6px;
+	border-bottom: none;
+	width: 5%;
+	margin: 25px auto;
 }
