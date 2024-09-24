@@ -34,8 +34,8 @@
 .about-me {
 	font-family: "Montserrat";
 	font-size: 20px;
-	line-height: 2;
-	width: 30%;
+	line-height: 2s;
+	width: 50%;
 	margin: auto;
 }
 
@@ -64,12 +64,34 @@
 	background-color: #ecdfcc;
 	text-align: center;
 	padding: 5% 0 5% 0;
+	font-family: "Montserrat";
+	font-size: 20px;
+	line-height: 1.5;
+}
+.project-heading {
+	text-align: center;
 }
 .carousel-item {
 	padding: 3% 16%;
 }
-.project-img {
-	padding-bottom: 5%;
+dl {
+	text-align: left;
+}
+video {
+	padding: 30px 0px 15px 0px;
+}
+.prev {
+	background-color: #ecdfcc;
+	border: none;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.next {
+	background-color: #ecdfcc;
+	border: none;
+	padding: 10px;
+	font-size: 15px;
 }
 
 /* Skills
@@ -107,4 +129,21 @@ hr {
 	border-bottom: none;
 	width: 5%;
 	margin: 25px auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+.slide1 {
+	display: none;
+}
+img {
+	vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
 }
