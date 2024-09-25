@@ -53,16 +53,16 @@
 					<div class="collapse navbar-collapse" id="navbarcollapse">
 						<ul class="navbar-nav ms-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="">Skills</a>
+								<a class="nav-link" href="#languages">Skills</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="">Projects</a>
+								<a class="nav-link" href="#projects">Projects</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="">Creative Resume</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="">Contact</a>
+								<a class="nav-link" href="#contact">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -174,8 +174,8 @@
 			</table>
 		</section>
 
-		<section id="featured-projects">
-			<h3 class="project-heading">Featured Projects</h3>
+		<section id="projects">
+			<h3 class="project-heading">Projects</h3>
 			<div id="carousel-project" class="carousel slide">
 				<div class="carousel-indicators">
 					<button
@@ -209,6 +209,12 @@
 						data-bs-target="#carousel-project"
 						data-bs-slide-to="4"
 						aria-label="Slide 5"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carousel-project"
+						data-bs-slide-to="5"
+						aria-label="Slide 6"
 					></button>
 				</div>
 				<div class="carousel-inner">
@@ -445,6 +451,14 @@
 							<source class="project-vid" src="" type="video/mp4" />
 						</video> -->
 					</div>
+					<div class="carousel-item">
+						<h3 class="mproject">More Projects</h3>
+						<p class="mproject">
+							Click here to head over to all the project done or in
+							progress.(Work in Progress)
+						</p>
+						<button class="btn btn-lg btn-dark">Learn More</button>
+					</div>
 				</div>
 				<button
 					class="carousel-control-prev"
@@ -480,11 +494,77 @@
 		</section> -->
 
 		<section id="contact">
-			<p>Contact</p>
+			<h2 class="contact-heading">Get In Touch</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<form
+							action="mailto:muahmmadumer091@gmail.com"
+							method="post"
+							enctype="text/plain"
+						>
+							<div class="row">
+								<div class="col">
+									<input
+										type="text"
+										class="form-control"
+										placeholder="First name"
+										aria-label="First name"
+									/>
+								</div>
+								<div class="col">
+									<input
+										type="text"
+										class="form-control"
+										placeholder="Last name"
+										aria-label="Last name"
+									/>
+								</div>
+							</div>
+							<div class="mb-3">
+								<label
+									for="exampleFormControlInput1"
+									class="form-label"
+								></label>
+								<input
+									type="email"
+									class="form-control"
+									id="exampleFormControlInput1"
+									placeholder="name@example.com"
+								/>
+							</div>
+							<div class="mb-3">
+								<label
+									for="exampleFormControlTextarea1"
+									class="form-label"
+								></label>
+								<textarea
+									class="form-control"
+									id="exampleFormControlTextarea1"
+									rows="3"
+									placeholder="Message"
+								></textarea>
+							</div>
+							<button type="submit" class="btn btn-dark btn-lg mb-3">
+								Submit
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<section id="footer">
-			<p>Trademark</p>
+			<a href="https://x.com/HOODINIIMAGIC"
+				><i class="footer-icon fa-brands fa-twitter"></i
+			></a>
+			<a href="https://github.com/HOODINIII"
+				><i class="footer-icon fa-brands fa-square-github"></i
+			></a>
+			<a href="https://www.linkedin.com/in/muhammad-umar-634442169/"
+				><i class="footer-icon fa-brands fa-linkedin"></i
+			></a>
+			<p class="footer-txt">© Copyright 2024</p>
 		</section>
 		<dl></dl>
 	</body>

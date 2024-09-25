@@ -32,9 +32,7 @@
 	padding: 10px;
 }
 .about-me {
-	font-family: "Montserrat";
 	font-size: 20px;
-	line-height: 2s;
 	width: 50%;
 	margin: auto;
 }
@@ -60,13 +58,11 @@
 }
 
 /* Projects */
-#featured-projects {
+#projects {
 	background-color: #ecdfcc;
 	text-align: center;
 	padding: 5% 0 5% 0;
-	font-family: "Montserrat";
 	font-size: 20px;
-	line-height: 1.5;
 }
 .project-heading {
 	text-align: center;
@@ -93,42 +89,11 @@ video {
 	padding: 10px;
 	font-size: 15px;
 }
-
-/* Skills
-#skills {
-	background-color: #f5eded;
-} */
-
-/* Contact Me */
-#contact {
-	background-color: #7fa1c3;
+.mproject {
+	padding: 15px;
 }
-
-/* Footer */
-#footer {
-	background-color: #6482ad;
-}
-
-/* Body */
-h1 {
-	font-family: "Montserrat";
-	font-weight: bold;
-}
-
-/* h2 {
-} */
-
-h3 {
-	font-family: "Montserrat";
-	font-weight: bold;
+.btn {
 	padding: 10px;
-}
-
-hr {
-	border: dotted grey 6px;
-	border-bottom: none;
-	width: 5%;
-	margin: 25px auto;
 }
 
 * {
@@ -146,4 +111,67 @@ img {
 	max-width: 100%;
 	position: relative;
 	margin: auto;
+}
+
+/* Skills
+#skills {
+	background-color: #f5eded;
+} */
+
+/* Contact Me */
+#contact {
+	background-color: #e2e3e5;
+	text-align: center;
+	font-size: 20px;
+	padding: 5% 10%;
+}
+.contact-heading {
+	padding: 5px 0 50px 0;
+}
+.container {
+	width: 50%;
+	margin: auto;
+}
+
+/* Footer */
+#footer {
+	text-align: center;
+	background-color: #ecdfcc;
+	padding: 3% 7%;
+}
+
+.footer-txt {
+	font-family: "Ubuntu";
+	font-weight: 500;
+	padding-top: 30px;
+	color: #8f8f8f;
+}
+
+.footer-icon {
+	padding: 10px;
+	color: black;
+}
+
+/* Body */
+.body {
+	font-family: "Ubuntu";
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat";
+	font-weight: bold;
+	padding: 20px;
+}
+
+hr {
+	border: dotted grey 6px;
+	border-bottom: none;
+	width: 5%;
+	margin: 25px auto;
 }
