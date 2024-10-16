@@ -711,7 +711,30 @@
 		</section>
 
 		<button onclick="topFunction()" id="topbtn" title="Go To Top">
-			<i class="fa-solid fa-circle-chevron-up"></i>
+			<i class="fa-solid fa-circle-chevron-up fa-3x"></i>
 		</button>
+		<script>
+			let topbutton = document.getElementById(topbtn);
+
+			window.onscroll = function () {
+				scrollFunction();
+			};
+
+			function scrollFunction() {
+				if (
+					document.body.scrollTop > 20 ||
+					document.documentElement.scrollTop > 20
+				) {
+					topbtn.style.display = "block";
+				} else {
+					topbtn.style.display = "none";
+				}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
 	</body>
 </html>

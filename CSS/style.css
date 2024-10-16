@@ -201,11 +201,11 @@ p {
 	z-index: 99;
 	border: none;
 	outline: none;
-	background-color: #eeeeee;
 	cursor: pointer;
-	padding: 15px;
+	border-radius: 400px;
+	background-color: #393e46;
 }
 
 #topbtn:hover {
-	background-color: #393e46;
+	color: #eeeeee;
 }
