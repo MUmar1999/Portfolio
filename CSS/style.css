@@ -217,7 +217,7 @@ p {
 	color: #eeeeee;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1240px) {
 	body {
 		width: 100%;
 		font-size: 15px;
@@ -240,6 +240,7 @@ p {
 	.video {
 		width: 300px;
 		height: 300px;
+		margin-left: -20px;
 	}
 
 	#contact {
@@ -271,9 +272,5 @@ p {
 	}
 	.nav-link {
 		text-align: center;
-	}
-
-	.navbar-brand {
-		margin-left: 35px;
 	}
 }
