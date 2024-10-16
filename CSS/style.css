@@ -1,6 +1,6 @@
 /* Header */
 #header {
-	background-color: #181c14;
+	background-color: #000000;
 }
 /* .container-fluid {
 } */
@@ -23,7 +23,7 @@
 
 /* Title */
 #title {
-	background-color: #ecdfcc;
+	background-color: #393e46;
 	text-align: center;
 	padding: 3% 5%;
 }
@@ -39,7 +39,7 @@
 
 /* Programming Language */
 #languages {
-	background-color: #e2e3e5;
+	background-color: #393e46;
 	text-align: center;
 	padding: 3% 5%;
 }
@@ -49,7 +49,7 @@
 	padding: 1% 5%;
 }
 .fa-star:hover {
-	color: gold;
+	color: #e6b31e;
 	transition: 0.2s ease;
 }
 .rhover:hover {
@@ -59,10 +59,11 @@
 
 /* Projects */
 #projects {
-	background-color: #ecdfcc;
+	background-color: #393e46;
 	text-align: center;
 	padding: 5% 0 5% 0;
 	font-size: 20px;
+	color: #f4f6ff;
 }
 .project-heading {
 	text-align: center;
@@ -77,14 +78,14 @@ video {
 	padding: 30px 0px 15px 0px;
 }
 .prev {
-	background-color: #ecdfcc;
+	background-color: #393e46;
 	border: none;
 	padding: 10px;
 	font-size: 15px;
 }
 
 .next {
-	background-color: #ecdfcc;
+	background-color: #393e46;
 	border: none;
 	padding: 10px;
 	font-size: 15px;
@@ -120,7 +121,7 @@ img {
 
 /* Contact Me */
 #contact {
-	background-color: #e2e3e5;
+	background-color: #393e46;
 	text-align: center;
 	font-size: 20px;
 	padding: 5% 10%;
@@ -136,20 +137,22 @@ img {
 /* Footer */
 #footer {
 	text-align: center;
-	background-color: #ecdfcc;
+	background-color: #000000;
 	padding: 3% 7%;
+	margin-bottom: 0px;
+	vertical-align: top;
 }
 
 .footer-txt {
 	font-family: "Ubuntu";
 	font-weight: 500;
 	padding-top: 30px;
-	color: #8f8f8f;
+	color: #eeeeee;
 }
 
 .footer-icon {
 	padding: 10px;
-	color: black;
+	color: #eeeeee;
 }
 
 /* Body */
@@ -167,11 +170,17 @@ h6 {
 	font-family: "Montserrat";
 	font-weight: bold;
 	padding: 20px;
+	color: #eeeeee;
 }
 
 hr {
-	border: dotted grey 6px;
+	border: dotted #eeeeee 6px;
 	border-bottom: none;
 	width: 5%;
 	margin: 25px auto;
+}
+
+p {
+	color: #f4f6ff;
+	margin: 0;
 }
