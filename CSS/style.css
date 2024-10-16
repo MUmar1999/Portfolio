@@ -81,8 +81,15 @@
 dl {
 	text-align: left;
 }
-video {
+.video {
 	padding: 30px 0px 15px 0px;
+	height: 650px;
+	width: 1300px;
+}
+
+.html5-video-player {
+	height: 650px;
+	width: 1300px;
 }
 
 .prev {
@@ -210,13 +217,63 @@ p {
 	color: #eeeeee;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	body {
-		max-width: 100%;
-		font-size: 16px; !important
+		width: 100%;
+		font-size: 15px;
+		line-height: 1.5;
 	}
 
 	.personal-img {
-		max-width: 50%;
+		width: 50%;
+	}
+
+	.about-me {
+		width: 100%;
+		font-size: 15px;
+	}
+
+	.table {
+		width: 100%;
+	}
+
+	.video {
+		width: 300px;
+		height: 300px;
+	}
+
+	#contact {
+		padding: 5px 0;
+	}
+
+	.form-control {
+		padding: 0;
+	}
+
+	.carousel-item {
+		font-size: 15px;
+	}
+
+	#projects {
+		padding: 0;
+	}
+
+	.btn {
+		margin-bottom: 30px;
+	}
+
+	.carousel-indicators {
+		margin: -5px;
+	}
+
+	.navbar-toggler {
+		margin: auto;
+	}
+	.nav-link {
+		text-align: center;
+	}
+
+	.navbar-brand {
+		margin-left: 35px;
 	}
 }
