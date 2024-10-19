@@ -27,6 +27,12 @@
 .dropdown-item {
 	color: #eeeeee;
 }
+.dropdown-divider {
+	border: solid #393e46 1px;
+	border-bottom: none;
+	width: 100%;
+	margin: 7px auto;
+}
 
 /* Title */
 #title {
@@ -162,12 +168,12 @@ img {
 	font-family: "Ubuntu";
 	font-weight: 500;
 	padding-top: 30px;
-	color: #eeeeee;
+	color: #686d76;
 }
 
 .footer-icon {
 	padding: 10px;
-	color: #eeeeee;
+	color: #686d76;
 }
 
 /* Body */
@@ -271,6 +277,10 @@ p {
 		margin: auto;
 	}
 	.nav-link {
+		text-align: center;
+	}
+
+	.dropdown-item {
 		text-align: center;
 	}
 }

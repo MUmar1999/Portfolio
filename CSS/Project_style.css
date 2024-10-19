@@ -22,4 +22,30 @@
 /* Body */
 body {
 	background-color: #393e46;
+	color: #eeeeee;
+}
+
+/* Album cards */
+.card-body {
+}
+
+/* Footer */
+#footer {
+	text-align: center;
+	background-color: #000000;
+	padding: 3% 7%;
+	margin-bottom: 0px;
+	vertical-align: top;
+}
+
+.footer-txt {
+	font-family: "Ubuntu";
+	font-weight: 500;
+	padding-top: 5px;
+	color: #686d76;
+}
+
+.footer-icon {
+	padding: 10px;
+	color: #686d76;
 }
