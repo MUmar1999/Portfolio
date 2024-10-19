@@ -23,11 +23,19 @@
 body {
 	background-color: #393e46;
 	color: #eeeeee;
+	font-family: "Ubuntu";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat";
 }
 
 /* Album cards */
-.card-body {
-}
+
 
 /* Footer */
 #footer {
