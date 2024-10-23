@@ -1,4 +1,7 @@
 # Portfolio
- Personal Portfolio
 
- This is a work in progress Portfolio. Changes will be made from now and then.
+Personal Portfolio
+
+This is a work in progress Portfolio.
+
+This Portfolio might look different from your last time here :).
